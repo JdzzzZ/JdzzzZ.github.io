@@ -123,6 +123,16 @@
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">categories</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">tags</span></a>
+      </div>
   </nav>
 </div>
 
@@ -174,9 +184,24 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">Posted on</span>
-      
 
-      <time title="Created: 2023-05-17 19:47:34 / Modified: 14:20:00" itemprop="dateCreated datePublished" datetime="2023-05-17T19:47:34+08:00">2023-05-17</time>
+      <time title="Created: 2023-05-17 19:47:34" itemprop="dateCreated datePublished" datetime="2023-05-17T19:47:34+08:00">2023-05-17</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2023-05-18 19:35:34" itemprop="dateModified" datetime="2023-05-18T19:35:34+08:00">2023-05-18</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%8D%9A%E5%AE%A2/" itemprop="url" rel="index"><span itemprop="name">博客</span></a>
+        </span>
     </span>
 
   
@@ -190,30 +215,32 @@
     
     <div class="post-body" itemprop="articleBody">
           <h2 id="init"><a href="#init" class="headerlink" title="init"></a>init</h2><p>新建一个网站</p>
-<p>  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init [folder]</span><br></pre></td></tr></table></figure></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init [folder]</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
 <p><em>默认在目前文件夹建立网站</em></p>
 <h2 id="new"><a href="#new" class="headerlink" title="new"></a>new</h2><p>新建一篇文章</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new [layout] &lt;title&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">$ hexo new [layout] &lt;title&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <h2 id="generate"><a href="#generate" class="headerlink" title="generate"></a>generate</h2><p>生成静态文件</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">$ hexo g</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <h2 id="publish"><a href="#publish" class="headerlink" title="publish"></a>publish</h2><p>发表草稿</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo publish [layout] &lt;filename&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">$ hexo publish [layout] &lt;filename&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <h2 id="server"><a href="#server" class="headerlink" title="server"></a>server</h2><p>启动服务器</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">$ hexo server</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <h2 id="deploy"><a href="#deploy" class="headerlink" title="deploy"></a>deploy</h2><p>部署网站</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">$ hexo d</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <h2 id="render"><a href="#render" class="headerlink" title="render"></a>render</h2><p>渲染文件</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo render &lt;file1&gt; [file2] ...</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">$ hexo render &lt;file1&gt; [file2] ...</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <h2 id="clean"><a href="#clean" class="headerlink" title="clean"></a>clean</h2><p>清除缓存文件和已生成的静态文件</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">$ hexo clean</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <p><em>在某些情况（尤其是更换主题后），如果发现您对站点的更改无论如何也不生效，您可能需要运行该命令。</em></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -268,9 +295,24 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">Posted on</span>
-      
 
-      <time title="Created: 2023-05-17 14:17:35 / Modified: 14:17:36" itemprop="dateCreated datePublished" datetime="2023-05-17T14:17:35+08:00">2023-05-17</time>
+      <time title="Created: 2023-05-17 14:17:35" itemprop="dateCreated datePublished" datetime="2023-05-17T14:17:35+08:00">2023-05-17</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2023-05-18 19:37:11" itemprop="dateModified" datetime="2023-05-18T19:37:11+08:00">2023-05-18</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%8D%9A%E5%AE%A2/" itemprop="url" rel="index"><span itemprop="name">博客</span></a>
+        </span>
     </span>
 
   
@@ -337,9 +379,24 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">Posted on</span>
-      
 
-      <time title="Created: 2023-05-16 16:35:28 / Modified: 16:36:51" itemprop="dateCreated datePublished" datetime="2023-05-16T16:35:28+08:00">2023-05-16</time>
+      <time title="Created: 2023-05-16 16:35:28" itemprop="dateCreated datePublished" datetime="2023-05-16T16:35:28+08:00">2023-05-16</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2023-05-18 19:36:27" itemprop="dateModified" datetime="2023-05-18T19:36:27+08:00">2023-05-18</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%8D%9A%E5%AE%A2%E6%B5%8B%E8%AF%95/" itemprop="url" rel="index"><span itemprop="name">博客测试</span></a>
+        </span>
     </span>
 
   
@@ -408,6 +465,22 @@
       <span class="post-meta-item-text">Posted on</span>
 
       <time title="Created: 2023-05-16 16:18:58" itemprop="dateCreated datePublished" datetime="2023-05-16T16:18:58+08:00">2023-05-16</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2023-05-18 19:35:00" itemprop="dateModified" datetime="2023-05-18T19:35:00+08:00">2023-05-18</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%8D%9A%E5%AE%A2%E6%B5%8B%E8%AF%95/" itemprop="url" rel="index"><span itemprop="name">博客测试</span></a>
+        </span>
     </span>
 
   

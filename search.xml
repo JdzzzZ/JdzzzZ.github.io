@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>个人博客搭建教程</title>
+    <url>/2023/05/17/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>博客搭建</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2023/05/16/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>博客测试</category>
+      </categories>
+      <tags>
+        <tag>Hello, World</tag>
+        <tag>博客测试</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo框架常用命令</title>
+    <url>/2023/05/17/hexo%E6%A1%86%E6%9E%B6%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<h2 id="init"><a href="#init" class="headerlink" title="init"></a>init</h2><p>新建一个网站</p>
+<figure class="highlight crystal"><table><tr><td class="code"><pre><span class="line"><span class="variable">$ </span>hexo init [folder]</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p><em>默认在目前文件夹建立网站</em></p>
+<h2 id="new"><a href="#new" class="headerlink" title="new"></a>new</h2><p>新建一篇文章</p>
+<figure class="highlight gauss"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">$ hexo <span class="keyword">new</span> [layout] &lt;<span class="built_in">title</span>&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="generate"><a href="#generate" class="headerlink" title="generate"></a>generate</h2><p>生成静态文件</p>
+<figure class="highlight crystal"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="variable">$ </span>hexo g</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="publish"><a href="#publish" class="headerlink" title="publish"></a>publish</h2><p>发表草稿</p>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">$ hexo publish [layout] <span class="tag">&lt;<span class="name">filename</span>&gt;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="server"><a href="#server" class="headerlink" title="server"></a>server</h2><p>启动服务器</p>
+<figure class="highlight axapta"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">$ hexo <span class="keyword">server</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="deploy"><a href="#deploy" class="headerlink" title="deploy"></a>deploy</h2><p>部署网站</p>
+<figure class="highlight crystal"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="variable">$ </span>hexo d</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="render"><a href="#render" class="headerlink" title="render"></a>render</h2><p>渲染文件</p>
+<figure class="highlight prolog"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">$ hexo render &lt;file1&gt; [file2] ...</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="clean"><a href="#clean" class="headerlink" title="clean"></a>clean</h2><p>清除缓存文件和已生成的静态文件</p>
+<figure class="highlight crystal"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="variable">$ </span>hexo clean</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p><em>在某些情况（尤其是更换主题后），如果发现您对站点的更改无论如何也不生效，您可能需要运行该命令。</em></p>
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客第一篇文章</title>
+    <url>/2023/05/16/%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<h1 id="第一篇博客"><a href="#第一篇博客" class="headerlink" title="第一篇博客"></a>第一篇博客</h1><h3 id="仅供测试使用"><a href="#仅供测试使用" class="headerlink" title="仅供测试使用"></a>仅供测试使用</h3>]]></content>
+      <categories>
+        <category>博客测试</category>
+      </categories>
+      <tags>
+        <tag>博客测试</tag>
+      </tags>
+  </entry>
+</search>
